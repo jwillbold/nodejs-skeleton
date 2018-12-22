@@ -1,7 +1,4 @@
-const chai = require('chai');
-
-const assert = chai.assert;
-const expect = chai.expect;
+require("./test_helper.js")();
 
 describe("mocha test skeleton", function() {
   describe("Chai assert test", function() {

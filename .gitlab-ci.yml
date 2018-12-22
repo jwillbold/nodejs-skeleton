@@ -1,0 +1,24 @@
+image: node:6.10.3
+
+stages:
+  - ver
+  - init
+  - tests
+
+ver:
+  stage: ver
+  script:
+    - node --version
+    - whoami
+
+init:
+  stage: init
+  script:
+    - npm cache clean
+    - rm -rf node-modules
+    - npm install
+
+run_tests:
+  stage: tests
+  script:
+    - npm test
