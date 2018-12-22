@@ -5,6 +5,9 @@ html
     title= title
     link(rel='stylesheet' href='/3rdparty/bootstrap/css/bootstrap.min.css')
     link(rel='stylesheet' href='/res/css/style.css')
-    script(type='text/javascript', src='/3rdparty/jquery/jquery.min.js')
+    block header_scripts
+      script(type='text/javascript', src='/3rdparty/jquery/jquery.min.js')
   body
+    include header.pug
     block content
+    block body_scripts

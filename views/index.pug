@@ -1,5 +1,9 @@
 extends layout
 
+block append body_scripts
+  script(type='text/javascript', src='/res/js/script.js')
+
 block content
-  h1= 'Hello World'
-  p Welcome to #{title}
+  div.container.h-100
+    h1= 'Hello World'
+    p Welcome to #{title}
