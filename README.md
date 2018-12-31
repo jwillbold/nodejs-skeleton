@@ -6,6 +6,13 @@ signed certificate for the localhost. Which allows for development using HTTPS
 which prevents problems that occur when developing and testing with HTTP and
 then hosting it on HTTPS.
 
+### Usage
+
+Start with:
+``npm install && npm start``
+
+Then got to your browser and open: ``https://localhost:3001/``  
+Then you will have to add the certificate to the browser exceptions.
 
 ### Included Libs
   - Bootstrap 4.1
