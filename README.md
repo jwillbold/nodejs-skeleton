@@ -15,7 +15,7 @@ Then got to your browser and open: ``https://localhost:3001/``
 Then you will have to add the certificate to the browser exceptions.
 
 ### Included Libs
-  - Bootstrap 4.1
+  - Bootstrap 4.3.1
   - JQuery 3.3.1
 
 ### Predefined NodeJS packages
