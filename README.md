@@ -14,6 +14,12 @@ Start with:
 Then got to your browser and open: ``https://localhost:3001/``  
 You will have to add the certificate to the browser exceptions since it is self signed.
 
+### Crate your own key and certifiate
+
+You may want to crate your own key and self-signed certificate. You can do this with this command:
+``openssl req -new -newkey dsa:4096 -x509 -sha256 -days 365 -nodes -out private/certs/localhost.crt -keyout private/keys/localhost.key``
+
+
 ### Included Libs
   - Bootstrap 4.3.1
   - JQuery 3.3.1
