@@ -12,7 +12,7 @@ Start with:
 ``npm install && npm start``
 
 Then got to your browser and open: ``https://localhost:3001/``  
-Then you will have to add the certificate to the browser exceptions.
+You will have to add the certificate to the browser exceptions since it is self signed.
 
 ### Included Libs
   - Bootstrap 4.3.1
