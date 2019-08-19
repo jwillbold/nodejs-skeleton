@@ -80,3 +80,6 @@ typings/
 
 build
 .DS_Store
+
+# Local database files
+private/db
