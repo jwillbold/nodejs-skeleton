@@ -2,7 +2,10 @@
   "name": "nodejs-skeleton",
   "version": "0.1.0",
   "private": false,
-  "author": "Johannes Willbold",
+  "author": "jwillbold",
+  "description": "A nodejs template to start your project",
+  "license": "MIT",
+  "repository": "github:jwillbold/nodejs-skeleton",
   "scripts": {
     "start": "node ./bin/www",
     "test": "./node_modules/.bin/_mocha --recursive ./tests/*.test.js"
