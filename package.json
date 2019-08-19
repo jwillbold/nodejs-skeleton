@@ -1,7 +1,7 @@
 {
   "name": "nodejs-skeleton",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.1.0",
+  "private": false,
   "author": "Johannes Willbold",
   "scripts": {
     "start": "node ./bin/www",
